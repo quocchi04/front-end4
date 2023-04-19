@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.list ul li {
+     list-style: none;
+     font-weight: bold;
+}
+.container {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+}
+.hang1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    
+}
+
+#text1{
+display: flex;
+list-style: none;
+margin: 0;
+padding-top: 20px;
+}
+#text1 li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 20px;
+}
+.search {
+    margin: 60px 20px;
+    
+} 
+.hang2 {
+    display: flex;
+    background-color: rgb(226, 103, 58);
+    justify-content: space-between;
+    margin-top: -60px;
+}
+
+
+#text2 {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#text2 li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+}
+.cocial-icons {
+    display: flex;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 420px;
+    padding-right: 30px;
+    
+    
+}
+ ul.icon li{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+    
+}
+ul.icon li svg {
+   fill: #fff  /* để cả icon được tô màu trắng */
+  }
